@@ -1,0 +1,26 @@
+-r requirements.txt
+
+# Development tools
+pre-commit>=3.4.0
+bump2version>=1.0.1
+tox>=4.11.3
+pytest-benchmark>=4.0.0
+pytest-mock>=3.11.1
+pytest-timeout>=2.1.0
+coverage>=7.3.2
+
+# Documentation
+pdoc3>=0.10.0
+jupyter>=1.0.0
+nbsphinx>=0.9.3
+sphinx-autodoc-typehints>=1.24.0
+
+# Type checking
+mypy-extensions>=1.0.0
+types-redis>=4.6.0.20240106
+types-setuptools>=69.0.0.20240115
+
+# Code quality
+pylint>=3.0.2
+bandit>=1.7.5
+safety>=2.3.5
