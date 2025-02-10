@@ -3,7 +3,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![C++](https://img.shields.io/badge/C++-20-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-[![Build Status](https://github.com/yourusername/rugpull-detector/workflows/CI/badge.svg)](https://github.com/yourusername/rugpull-detector/actions)
 
 A high-performance, real-time rug pull detection engine for cryptocurrency tokens. Written in modern C++ with Python bindings, this tool helps protect traders and investors by identifying potential rug pulls through pattern analysis and market behavior monitoring.
 
