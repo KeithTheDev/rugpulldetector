@@ -121,8 +121,8 @@ vcpkg install \
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/rugpull-detector.git
-cd rugpull-detector
+git clone https://github.com/KeithTheDev/rugpull-detector.git
+cd rugpulldetector
 ```
 
 2. Install Python dependencies:
@@ -151,24 +151,6 @@ make -j$(nproc)
 sudo make install
 ```
 
-4. Verify installation:
-
-```bash
-# Run tests
-make test
-
-# Check CLI tool
-rugpull-detector --version
-```
-
-### Python Package
-
-Quick installation via pip:
-
-```bash
-pip install rugpull-detector
-```
-
 ### Development Setup
 
 For development work, we recommend setting up a virtual environment:
@@ -187,25 +169,6 @@ pip install -r requirements-dev.txt
 
 # Install pre-commit hooks
 pre-commit install
-```
-
-### Docker Installation
-
-1. Using pre-built image:
-
-```bash
-docker pull yourusername/rugpull-detector
-docker run -d -p 6379:6379 yourusername/rugpull-detector
-```
-
-2. Building locally:
-
-```bash
-# Build image
-docker build -t rugpull-detector .
-
-# Run container
-docker run -d -p 6379:6379 rugpull-detector
 ```
 
 ### Common Issues
